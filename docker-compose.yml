@@ -1,0 +1,7 @@
+version: '3.5'
+
+services:
+
+  gowebbuilder:
+    build: .
+    image: abilioesteves/gowebbuilder:0.0.1
