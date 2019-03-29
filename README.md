@@ -9,6 +9,12 @@ Worry no more.
 
 This is a public service repository that puts together in a single docker image all dependencies one might need to build his/her golang web projects.
 
+# Example
+
+The folder `example` holds a sample Dockerfile to show how one could write it without having to deal with the `go get...` madness.
+
+Check it out!
+
 # How to Contribute
 
 Fork it and open a Pull Request with your dependency added to the `main.go` file.
