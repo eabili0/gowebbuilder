@@ -1,0 +1,6 @@
+version: "3.5"
+
+services:
+  example:
+    build: .
+    image: abilioesteves/gowebbuilder-example:0.0.1
