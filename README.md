@@ -1,12 +1,13 @@
 ![motive](https://raw.githubusercontent.com/abilioesteves/gowebbuilder/assets/motive.png)
 
 # GoWebBuilder
+[![Docker Pulls](https://img.shields.io/docker/pulls/abilioesteves/gowebbuilder.svg)](https://hub.docker.com/r/abilioesteves/gowebbuilder)
 
 Have you ever faced problems with your internet connection and was unable to build your docker image because of `go get...` madness, like the one above?
 
 Worry no more.
 
-This is a public service repository that aims to collect in a single docker image all dependencies one might need to build his golang web projects.
+This is a public service repository that puts together in a single docker image all dependencies one might need to build his/her golang web projects.
 
 # How to Contribute
 
