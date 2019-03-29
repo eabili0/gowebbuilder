@@ -6,7 +6,7 @@ Have you ever faced problems with your internet connection and was unable to bui
 
 Worry no more.
 
-This is a public service repository that aims to collect in a single docker image all dependencies one might need to build his golang web projects.
+This is a public service repository that puts together in a single docker image all dependencies one might need to build his/her golang web projects.
 
 # How to Contribute
 
