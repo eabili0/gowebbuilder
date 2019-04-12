@@ -20,7 +20,6 @@ import (
 	_ "github.com/spf13/cobra"
 	_ "github.com/spf13/pflag"
 	_ "github.com/spf13/viper"
-	_ "github.com/ory/hydra/sdk/go/hydra"
 )
 
 func main() {
