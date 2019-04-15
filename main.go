@@ -14,9 +14,9 @@ import (
 	_ "bytes"
 	_ "crypto/tls"
 
-	_ "github.com/abilioesteves/goh/gohclient"
-	_ "github.com/abilioesteves/goh/gohserver"
-	_ "github.com/abilioesteves/goh/gohtypes"
+	_ "github.com/labbsr0x/goh/gohclient"
+	_ "github.com/labbsr0x/goh/gohserver"
+	_ "github.com/labbsr0x/goh/gohtypes"
 	_ "github.com/gorilla/mux"
 	_ "github.com/prometheus/client_golang/prometheus"
 	_ "github.com/prometheus/client_golang/prometheus/promhttp"
