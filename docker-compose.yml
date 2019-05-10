@@ -4,4 +4,4 @@ services:
 
   gowebbuilder:
     build: .
-    image: abilioesteves/gowebbuilder:0.0.1
+    image: abilioesteves/gowebbuilder:0.5.0
