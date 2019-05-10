@@ -28,6 +28,8 @@ import (
 
 	_ "golang.org/x/oauth2"
 	_ "golang.org/x/oauth2/clientcredentials"
+	
+	_ "github.com/google/uuid"
 )
 
 func main() {
