@@ -19,7 +19,7 @@ Check it out!
 
 Fork it and open a Pull Request with your dependency added to the `main.go` file.
 
-For now, the only dependencies we will accept are those found in `github.com`.
+For now, the only dependencies we will accept are those found in `github.com` and `golang.org`.
 
 # Observations
 
@@ -28,6 +28,8 @@ This is an experimental initiative and it's open for suggestions. The questions 
 1. how do we certifiy that the added dependency is in a stable version?
 
 2. does code introspection via `github.com` suffices to accept the PR and guarantee that the generated image is free of malwares?
+
+3. How to enable new gowebbuilder releases for the update of only one dependecy?
 
 Thanks!
 

@@ -14,6 +14,7 @@ import (
 	_ "strings"
 	_ "time"
 
+	_ "github.com/go-errors/errors"
 	_ "github.com/gorilla/mux"
 	_ "github.com/labbsr0x/goh/gohclient"
 	_ "github.com/labbsr0x/goh/gohserver"
