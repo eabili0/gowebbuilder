@@ -1,19 +1,6 @@
 package main
 
 import (
-	_ "bytes"
-	_ "context"
-	_ "crypto/tls"
-	_ "encoding/json"
-	_ "fmt"
-	_ "net/http"
-	_ "net/url"
-	_ "os"
-	_ "path"
-	_ "strconv"
-	_ "strings"
-	_ "time"
-
 	_ "github.com/go-errors/errors"
 	_ "github.com/gorilla/mux"
 	_ "github.com/labbsr0x/goh/gohclient"
@@ -28,7 +15,7 @@ import (
 
 	_ "golang.org/x/oauth2"
 	_ "golang.org/x/oauth2/clientcredentials"
-	
+
 	_ "github.com/google/uuid"
 )
 
