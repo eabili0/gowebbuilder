@@ -6,8 +6,6 @@ import (
 	_ "github.com/labbsr0x/goh/gohclient"
 	_ "github.com/labbsr0x/goh/gohserver"
 	_ "github.com/labbsr0x/goh/gohtypes"
-	_ "github.com/prometheus/client_golang/prometheus"
-	_ "github.com/prometheus/client_golang/prometheus/promhttp"
 	_ "github.com/sirupsen/logrus"
 	_ "github.com/spf13/cobra"
 	_ "github.com/spf13/pflag"
