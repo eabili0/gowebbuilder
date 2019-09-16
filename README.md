@@ -17,7 +17,8 @@ Check it out!
 
 # How to Contribute
 
-Fork it and open a Pull Request with your dependency added to the `main.go` file.
+Fork it and open a Pull Request with your dependency added to the `main.go` file. After doing this, run `go test` to update *go.mod*
+dependencies.
 
 For now, the only dependencies we will accept are those found in `github.com` and `golang.org`.
 
@@ -25,11 +26,14 @@ For now, the only dependencies we will accept are those found in `github.com` an
 
 This is an experimental initiative and it's open for suggestions. The questions I have for now are:
 
-1. how do we certifiy that the added dependency is in a stable version?
+1. how do we certifiy that the added dependency is in a stable version? 
+    *If you are using go mod this problem has solved.*
 
 2. does code introspection via `github.com` suffices to accept the PR and guarantee that the generated image is free of malwares?
 
-3. How to enable new gowebbuilder releases for the update of only one dependecy?
+3. How to enable new gowebbuilder releases for the update of only one dependecy? 
+    *If you are using go mod this problem has solved.*
+    You only need to change the version of your dependency at `go.mod` file
 
 Thanks!
 
