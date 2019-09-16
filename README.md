@@ -27,7 +27,7 @@ For now, the only dependencies we will accept are those found in `github.com` an
 This is an experimental initiative and it's open for suggestions. The questions I have for now are:
 
 1. how do we certifiy that the added dependency is in a stable version? 
-    *If you are using go mod this problem has solved.*
+    *If you are using go mod this problem has been solved.*
 
 2. does code introspection via `github.com` suffices to accept the PR and guarantee that the generated image is free of malwares?
 
