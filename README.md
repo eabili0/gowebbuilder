@@ -32,7 +32,7 @@ This is an experimental initiative and it's open for suggestions. The questions 
 2. does code introspection via `github.com` suffices to accept the PR and guarantee that the generated image is free of malwares?
 
 3. How to enable new gowebbuilder releases for the update of only one dependecy? 
-    *If you are using go mod this problem has solved.*
+    *If you are using go mod this problem has been solved.*
     You only need to change the version of your dependency at `go.mod` file
 
 Thanks!
