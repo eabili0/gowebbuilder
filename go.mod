@@ -21,13 +21,13 @@ require (
 	github.com/iris-contrib/middleware v0.0.0-20190816193017-7838277651e8
 	github.com/jinzhu/gorm v1.9.10
 	github.com/jinzhu/inflection v1.0.0
-	github.com/json-iterator/go v1.1.7 // indirect
 	github.com/kataras/golog v0.0.0-20190624001437-99c81de45f40
 	github.com/kataras/iris v11.1.1+incompatible
 	github.com/kataras/pio v0.0.0-20190103105442-ea782b38602d
 	github.com/klauspost/compress v1.8.3
 	github.com/klauspost/cpuid v1.2.1
-	github.com/labbsr0x/goh v0.0.0-20190830205702-3d6988c73e10
+	github.com/labbsr0x/bindman-dns-webhook v1.0.2 // indirect
+	github.com/labbsr0x/goh v1.0.1
 	github.com/labbsr0x/whisper-client v0.0.0-20190619194636-38472a1cec64
 	github.com/ory/x v0.0.72 // indirect
 	github.com/ryanuber/columnize v2.1.0+incompatible // indirect

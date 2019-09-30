@@ -1,13 +1,14 @@
 # builder step
-FROM abilioesteves/gowebbuilder:unstable as builder
+FROM abilioesteves/gowebbuilder:latest as builder
 
-ENV p $GOPATH/src/github.com/abilioesteves/gowebbuilder/example/
+WORKDIR /src/
 
-RUN mkdir -p ${p}
-ADD ./main.go ${p}
-WORKDIR ${p}
+ADD go.mod .
+ADD go.sum .
 
-# NOTICE THE LACK OF A `go get` CALL
+RUN go mod download
+
+ADD main.go .
 
 RUN CGO_ENABLED=0 GOOS=linux go build -a -installsuffix cgo -o /example main.go
 

@@ -1,18 +1,10 @@
 FROM golang:1.12-alpine
 
-ENV p $GOPATH/src/github.com/abilioesteves/gowebbuilder
+WORKDIR /src/
 
 RUN apk add --no-cache git mercurial
 
-RUN mkdir -p ${p}
+ADD go.mod .
+ADD go.sum .
 
-#ADDED THIS FILE TO USE GO GET
-ADD ./main.go ${p}
-
-#ADDED THIS FILES TO USE GO MOD
-ADD go.mod go.sum ${p}/
-
-WORKDIR ${p}
-
-RUN go get -v ./...
-RUN go mod download 
+RUN go mod tidy
