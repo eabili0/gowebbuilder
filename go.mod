@@ -28,13 +28,13 @@ require (
 	github.com/klauspost/cpuid v1.2.1
 	github.com/labbsr0x/bindman-dns-webhook v1.0.2 // indirect
 	github.com/labbsr0x/goh v1.0.1
-	github.com/labbsr0x/whisper-client v0.0.0-20190619194636-38472a1cec64
-	github.com/ory/x v0.0.72 // indirect
-	github.com/ryanuber/columnize v2.1.0+incompatible // indirect
+	github.com/labbsr0x/whisper-client v0.9.4
+	github.com/mattn/go-isatty v0.0.4 // indirect
+	github.com/satori/go.uuid v1.2.0 // indirect
 	github.com/shurcooL/sanitized_anchor_name v1.0.0 // indirect
 	github.com/sirupsen/logrus v1.4.2
 	github.com/spf13/cobra v0.0.5
-	github.com/spf13/pflag v1.0.3
+	github.com/spf13/pflag v1.0.5
 	github.com/spf13/viper v1.4.0
 	github.com/valyala/bytebufferpool v1.0.0
 	github.com/valyala/fasthttp v1.5.0

@@ -1,5 +1,5 @@
 # builder step
-FROM abilioesteves/gowebbuilder:latest as builder
+FROM abilioesteves/gowebbuilder:1.4.0 as builder
 
 WORKDIR /src/
 

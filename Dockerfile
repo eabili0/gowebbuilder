@@ -1,8 +1,8 @@
-FROM golang:1.12-alpine
+FROM golang:1.13-alpine
 
 WORKDIR /src/
 
-RUN apk add --no-cache gcc build-base git mercurial
+RUN apk add gcc build-base git mercurial
 
 ADD go.mod .
 ADD go.sum .
