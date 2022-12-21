@@ -1,4 +1,4 @@
-FROM golang:1.13-alpine
+FROM golang:1.19-alpine
 
 WORKDIR /src/
 
@@ -7,4 +7,4 @@ RUN apk add gcc build-base git mercurial
 ADD go.mod .
 ADD go.sum .
 
-RUN go mod tidy
+RUN go mod download
