@@ -6,6 +6,5 @@ RUN apk add gcc build-base git mercurial
 
 ADD go.mod .
 ADD go.sum .
-ADD main.go .
 
-RUN go get ./...
+RUN go mod download
